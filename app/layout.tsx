@@ -26,6 +26,7 @@ export default function RootLayout({
         baseTheme: dark,
         variables: { colorPrimary: '#3371FF', fontSize: '16px' },
       }}
+      // afterSignOutUrl={'/sign-in'}
     >
       <html lang="en" suppressHydrationWarning>
         <body
